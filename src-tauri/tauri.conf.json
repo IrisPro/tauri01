@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "Remind Me Again"
+    "productName": "TEST TAURI"
   },
   "build": {
     "distDir": "../build",
@@ -11,7 +11,7 @@
   "tauri": {
     "bundle": {
       "active": true,
-      "targets": ["dmg", "deb", "appimage", "msi"],
+      "targets": "all",
       "identifier": "space.kasper.remind-me-again",
       "icon": [
         "icons/32x32.png",
@@ -39,7 +39,10 @@
       "windows": {
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
-        "timestampUrl": ""
+        "timestampUrl": "",
+        "webviewInstallMode": {
+          "type": "offlineInstaller"
+        }
       }
     },
     "systemTray": {
