@@ -52,6 +52,9 @@
   <h1 class="mb-2 cursor-default select-none text-center text-2xl font-normal text-white">
     Reminders
   </h1>
+  <h2>
+    <a href='https://inficloud.ideamake.cn'> 云创xxx</a>
+  </h2>
   {#if groups}
     <div class="relative select-none outline-none">
       <New
