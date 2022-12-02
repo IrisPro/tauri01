@@ -46,7 +46,7 @@
       }
     },
     "systemTray": {
-      "iconPath": "../assets/Logo template image2.png",
+      "iconPath": "../assets/Logo template image.png",
       "iconAsTemplate": true
     },
     "updater": {
