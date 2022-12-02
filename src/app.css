@@ -20,3 +20,7 @@ textarea,
 select {
   line-height: normal;
 }
+
+body {
+  background: unset !important;
+}

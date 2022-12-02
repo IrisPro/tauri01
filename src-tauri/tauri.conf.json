@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "TEST TAURI"
+    "productName": "云创客户端"
   },
   "build": {
     "distDir": "../build",
@@ -22,7 +22,7 @@
       ],
       "resources": [],
       "externalBin": [],
-      "copyright": "© 2022 kasper.space",
+      "copyright": "© 2022 IDEAMAKE",
       "category": "Productivity",
       "shortDescription": "Toggleable reminders app",
       "longDescription": "Toggleable reminders app",
@@ -46,7 +46,7 @@
       }
     },
     "systemTray": {
-      "iconPath": "../assets/Logo template image.png",
+      "iconPath": "../assets/Logo template image2.png",
       "iconAsTemplate": true
     },
     "updater": {
